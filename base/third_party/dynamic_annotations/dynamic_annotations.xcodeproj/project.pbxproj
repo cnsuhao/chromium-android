@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC0468D6AB85EF6B46463E7A /* dynamic_annotations.c in Sources */ = {isa = PBXBuildFile; fileRef = FD00ADB9DE24249BAC8462F7 /* dynamic_annotations.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DB9FB4E287C2541BFF23CA7 /* release_defaults.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = release_defaults.gypi; path = ../../../build/internal/release_defaults.gypi; sourceTree = "<group>"; };
+		31F9B0BAA91D9FCAE018E8BF /* filename_rules.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = filename_rules.gypi; path = ../../../build/filename_rules.gypi; sourceTree = "<group>"; };
+		3DACECB93A66418F1952F7B4 /* release_impl.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = release_impl.gypi; path = ../../../build/internal/release_impl.gypi; sourceTree = "<group>"; };
+		56D6F15D9642B38A283D2ADA /* release_impl_official.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = release_impl_official.gypi; path = ../../../build/internal/release_impl_official.gypi; sourceTree = "<group>"; };
+		57BDEA6F949D34E15E2EC344 /* dynamic_annotations.gyp */ = {isa = PBXFileReference; lastKnownFileType = text; path = dynamic_annotations.gyp; sourceTree = "<group>"; };
+		67CA0C39F49FE84125042497 /* dynamic_annotations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dynamic_annotations.h; sourceTree = "<group>"; };
+		703F65CC0C7A13FA050FA22D /* valgrind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = valgrind.h; sourceTree = "<group>"; };
+		C36C6D828C334CDF0066110B /* libdynamic_annotations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libdynamic_annotations.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA3EB39A6A8949FB732B36B /* common.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = common.gypi; path = ../../../build/common.gypi; sourceTree = "<group>"; };
+		EF22276FD6CD5B2CC539E591 /* release.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = release.gypi; path = ../../../build/release.gypi; sourceTree = "<group>"; };
+		FD00ADB9DE24249BAC8462F7 /* dynamic_annotations.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dynamic_annotations.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		594B9772385D425AE532185C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BD48C9B5F289088AE9D59E5 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				CDA3EB39A6A8949FB732B36B /* common.gypi */,
+				57BDEA6F949D34E15E2EC344 /* dynamic_annotations.gyp */,
+				31F9B0BAA91D9FCAE018E8BF /* filename_rules.gypi */,
+				EF22276FD6CD5B2CC539E591 /* release.gypi */,
+				0DB9FB4E287C2541BFF23CA7 /* release_defaults.gypi */,
+				3DACECB93A66418F1952F7B4 /* release_impl.gypi */,
+				56D6F15D9642B38A283D2ADA /* release_impl_official.gypi */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		10867955CE0391620E5A474C = {
+			isa = PBXGroup;
+			children = (
+				6656E0424A0AD0C288577BAF /* Source */,
+				28DB9126701F5AE28F2BAFBC /* Products */,
+				0BD48C9B5F289088AE9D59E5 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		28DB9126701F5AE28F2BAFBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C36C6D828C334CDF0066110B /* libdynamic_annotations.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6656E0424A0AD0C288577BAF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				735EA922D86BC793F306BA29 /* ../valgrind */,
+				FD00ADB9DE24249BAC8462F7 /* dynamic_annotations.c */,
+				67CA0C39F49FE84125042497 /* dynamic_annotations.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		735EA922D86BC793F306BA29 /* ../valgrind */ = {
+			isa = PBXGroup;
+			children = (
+				703F65CC0C7A13FA050FA22D /* valgrind.h */,
+			);
+			path = ../valgrind;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC0DBA4A09CC824DB448C52C /* dynamic_annotations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E90426D91C0264623E5099E /* Build configuration list for PBXNativeTarget "dynamic_annotations" */;
+			buildPhases = (
+				EA26C0E5749BECAAC3D1127A /* Sources */,
+				594B9772385D425AE532185C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dynamic_annotations;
+			productName = dynamic_annotations;
+			productReference = C36C6D828C334CDF0066110B /* libdynamic_annotations.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8237744EC0EB45DBAE665BB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 7E16EFB1BD4FE0E4CF5DEA85 /* Build configuration list for PBXProject "dynamic_annotations" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 10867955CE0391620E5A474C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC0DBA4A09CC824DB448C52C /* dynamic_annotations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA26C0E5749BECAAC3D1127A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0468D6AB85EF6B46463E7A /* dynamic_annotations.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		191460D5E179F42E3CBF9524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CLANG_WARN_CXX0X_EXTENSIONS = NO;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DISABLE_NACL\"",
+					"\"CHROMIUM_BUILD\"",
+					"\"USE_LIBJPEG_TURBO=1\"",
+					"\"ENABLE_PEPPER_THREADING\"",
+					"\"ENABLE_INPUT_SPEECH\"",
+					"\"ENABLE_EGLIMAGE=1\"",
+					"\"USE_SKIA=1\"",
+					"\"ENABLE_PLUGIN_INSTALLATION=1\"",
+					"\"DISABLE_FTP_SUPPORT=1\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=1\"",
+					"\"WTF_USE_DYNAMIC_ANNOTATIONS=1\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = ../../../;
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = dynamic_annotations;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+					"-Wheader-hygiene",
+					"-Wno-char-subscripts",
+					"-Wno-unused-function",
+					"-Wno-unnamed-type-template-args",
+					"-Wno-c++11-extensions",
+				);
+				WARNING_CFLAGS_excluded = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Debug;
+		};
+		A23A390A859C5DA001CDF2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+				SYMROOT = ../../../xcodebuild;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 i386";
+			};
+			name = Release;
+		};
+		D0C03E9083AC7B487B201E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+				SYMROOT = ../../../xcodebuild;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 i386";
+			};
+			name = Debug;
+		};
+		F4F1A64D9BBC65A39A1A99EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CLANG_WARN_CXX0X_EXTENSIONS = NO;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				DEAD_CODE_STRIPPING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"DISABLE_NACL\"",
+					"\"CHROMIUM_BUILD\"",
+					"\"USE_LIBJPEG_TURBO=1\"",
+					"\"ENABLE_PEPPER_THREADING\"",
+					"\"ENABLE_INPUT_SPEECH\"",
+					"\"ENABLE_EGLIMAGE=1\"",
+					"\"USE_SKIA=1\"",
+					"\"ENABLE_PLUGIN_INSTALLATION=1\"",
+					"\"DISABLE_FTP_SUPPORT=1\"",
+					"\"NDEBUG\"",
+					"\"NVALGRIND\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=0\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = ../../../;
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = dynamic_annotations;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+					"-Wheader-hygiene",
+					"-Wno-char-subscripts",
+					"-Wno-unused-function",
+					"-Wno-unnamed-type-template-args",
+					"-Wno-c++11-extensions",
+				);
+				WARNING_CFLAGS_excluded = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E90426D91C0264623E5099E /* Build configuration list for PBXNativeTarget "dynamic_annotations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191460D5E179F42E3CBF9524 /* Debug */,
+				F4F1A64D9BBC65A39A1A99EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		7E16EFB1BD4FE0E4CF5DEA85 /* Build configuration list for PBXProject "dynamic_annotations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C03E9083AC7B487B201E88 /* Debug */,
+				A23A390A859C5DA001CDF2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8237744EC0EB45DBAE665BB7 /* Project object */;
+}
